@@ -1,0 +1,392 @@
+body{
+
+  margin:0;
+  padding:0;
+  font-family: 'Yatra One', cursive;
+  font-size: 14px;
+  color:#444;
+}
+
+
+.container{
+  display: flex;
+  height: 670px;
+
+  border-bottom: 15px solid black;
+
+}
+#cf4a img {
+  position:absolute;
+  width: 98%;
+  height: 100%;
+
+}
+
+.ouverture{
+ font-size: 30px;
+ bottom:30%;
+}
+
+
+.photo_description{
+position: relative;
+background-image: url(../images/background.png);
+width: 100%;
+background-size: cover;
+background-color:  #38040E;
+
+}
+.photo_description>img{
+ height: 100%;
+}
+
+.test{
+  position: absolute;
+  color: white;
+  right: 10%;
+  top:0;
+
+}
+
+.resto{
+width: 1050px;
+height: 700px;
+opacity: 0.4;
+border-right: 5px solid #38040E;
+
+}
+
+h1{
+  margin: 0;
+ font-size: 80px;
+
+
+
+}
+a:hover{
+  color: red;
+}
+/***********************menu_droite***************/
+.bol{
+
+  width:1000px;
+  text-align: center;
+  background-color: #DFD7D9;
+  border-left: 5px solid brown;
+
+}
+
+.bol>h1{
+  text-align: center;
+  color: #38040E
+}
+.bol1{
+  width: 80%;
+  margin-top: 30%;
+}
+
+
+.image_bol{
+ background-image: url(../images/bol_entier.png);
+ width: 350px;
+ height: 350px;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ margin : 0 auto;
+ margin-top: 200px;
+}
+
+.specialite{
+  padding-top: 70px;
+  padding-right: 20px;
+
+}
+.commander{
+  padding-top: 100px;
+  padding-right: 15px;
+}
+
+.contact{
+  padding-top: 33px;
+  padding-right: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+#nos_menu{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+#nos_plat{
+  font-size:  25px;
+  font-weight: bold;
+
+
+}
+  #nos_commande{
+ font-weight: bold;
+ font-size: 20px;
+  }
+
+
+h2{
+  top: 40%;
+  left: 5%;
+  position: absolute;
+  width: 70%;
+  text-align: justify;
+  padding-left: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  border-left: 5px solid red;
+  font-size: 35px;
+
+
+}
+/******************************************************/
+
+
+/*******************FONDU*********************/
+@-webkit-keyframes cf4FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-moz-keyframes cf4FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-o-keyframes cf4FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@keyframes cf4FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+
+
+#cf4a img {
+  -webkit-animation-name: cf4FadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 12s;
+
+  -moz-animation-name: cf4FadeInOut;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 12s;
+
+  -o-animation-name: cf4FadeInOut;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 12s;
+
+  animation-name: cf4FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 12s;
+}
+#cf4a img:nth-of-type(1) {
+  -webkit-animation-delay: 9s;
+  -moz-animation-delay: 9s;
+  -o-animation-delay: 9s;
+  animation-delay: 9s;
+}
+#cf4a img:nth-of-type(2) {
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  -o-animation-delay: 6s;
+  animation-delay: 6s;
+}
+#cf4a img:nth-of-type(3) {
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -o-animation-delay: 3s;
+  animation-delay: 3s;
+}
+#cf4a img:nth-of-type(4) {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+}
+
+
+
+
+
+.slideshow {
+
+   overflow: hidden;
+
+}
+
+.slideshow ul {
+   width: 200%;
+   height: 150px;
+   padding:0; margin:0;
+   list-style: none;
+}
+.slideshow li {
+   float: left;
+   height: 200px;
+}
+
+
+
+
+
+
+
+/*******************footer*********************/
+
+
+footer{
+  width: 100%;
+  height: 150px;
+  color: #E0D8DA;
+  background-color: #38040E;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.gauche{
+  width: 33%;
+  border-right: 1px solid #E0D8DA;
+}
+.centre{
+  width: 33%;
+  border-right: 1px solid #E0D8DA;
+}
+.droite{
+  width: 34%;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1250px)
+{
+  .slideshow  {
+    height: 190px
+}
+
+.bol{
+ width: 100%;
+ height: 700px;
+ border-left: 0px solid brown;
+
+
+}
+
+.image_bol{
+  margin-top: 100px;
+}
+footer{
+  width: 100%;
+  height: auto;
+  color: #E0D8DA;
+  background-color: #38040E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  position: relative;
+
+
+}
+.gauche{
+  width: 60%;
+  border-bottom: 1px solid #E0D8DA;
+  border-right: none;
+  padding-bottom: 20px;
+
+}
+.centre{
+  width: 60%;
+  border-bottom: 1px solid #E0D8DA;
+  border-right: none;
+}
+.droite{
+  width: 60%;
+  padding-bottom: 110px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 1200px;
+}
+
+.photo_description{
+  width: 100%;
+  height: 100%;
+}
+}

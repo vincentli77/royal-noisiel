@@ -1,0 +1,363 @@
+body{
+margin:0;
+padding:0;
+font-family: 'Yatra One', cursive;
+font-size:14px;
+background-color: #E0D8DA;
+text-decoration: none;
+}
+a{
+  color: #E0D8DA;
+  text-decoration: none;
+}
+
+.nombres{
+  background-color: #38040E;
+  color: #E0D8DA;
+}
+
+a:hover{
+  color: red;
+}
+
+/*Header*/
+header{
+  background-color: #38040E;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  color: #E0D8De;
+  text-align: center;
+ position: static;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+}
+.bouton{
+  display: flex;
+  flex-direction: row;
+  list-style:none;
+  width: 34%;
+  justify-content: space-around;
+}
+#caché{
+  color: #38040E;
+}
+
+#tel_logo{
+  width: 40px;
+  height: 40px;
+}
+.adresse{
+  width: 33%;
+	display: flex;
+	flex-direction: row;
+  justify-content: center;
+}
+#localisation_logo{
+	width: 40px;
+  height: 40px;
+  padding: left : 50px;
+}
+.numeros{
+  width: 33%;
+  color:white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.hamburger{
+  position: relative;
+  overflow: hidden;
+}
+#logo_hamburger{
+  width: 40px;
+  height: 40px;
+  background-color: #38040E;;
+}
+/*body*/
+.Nos_menus{
+padding-left: 10px;
+margin-bottom: 35px;
+font-size: 20px;
+}
+
+h1{
+  color: white;
+
+}
+h3 > container_1{
+  font-size: 25px;
+  color: black;
+}
+h2{
+  color: red;
+}
+.blanc{
+  width: 50px;
+  height: 30px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+#menu1{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 300px;
+  font-size: 30px;
+}
+.menu_xl_right{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-bottom: 10px;
+   background-color: #E0D8DA;
+}
+
+.menu_xl_left{
+  background-color: #38040E;
+}
+.menu_xl_right>img{
+  width: 450px;
+}
+.menu_xl_left>img{
+  width: 450px;
+}
+
+
+.description_menu{
+  width: 600px;
+  height:auto;
+  padding-top: 30px;
+  padding-bottom:40px;
+  border: 10px solid black;
+  /*background-color: black;*/
+  background-image: url(../images/background_menu2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top:15%;
+  left: 30%;
+  position: fixed;
+  font-weight: bold;
+  z-index: 10;
+  /*
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+   transition: all 0.2s ease;
+   */
+   display: none;
+}
+
+.menu_xl_right:hover .description_menu{
+  display: block;
+
+
+}
+.menu_xl_left:hover .description_menu{
+  display: block;
+
+
+}
+
+.contenu_menu>h3 , h2{
+
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.contenu_menu>p{
+
+  color: black;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;
+}
+a.right{
+  text-decoration: none;
+  color: black;
+  padding-top: 50px;
+  padding-right: 10px;
+}
+a.left{
+  text-decoration: none;
+  color: black;
+  padding-top: 50px;
+  padding-left: 10px;
+
+}
+.right{
+position: absolute;
+margin-right: 200px;
+padding-top: 30px;
+width: 400px;
+font-size: 35px;
+padding-right: 15px;
+}
+
+
+.left{
+  position: absolute;
+  margin-left: 180px;
+  padding-top: 30px;
+  font-size: 35px;
+}
+.menu_block {
+ width : 500px;
+ height: 100%;
+}
+
+nav{
+  display: flex;
+  list-style: none;
+  font-size: 40px;
+  padding-bottom: 30px;
+  margin-left: 350px;
+  width: 450px;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+/*footer*/
+
+footer{
+  width: 100%;
+  height: 150px;
+  color: #E0D8DA;
+  background-color: #38040E;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+footer > h3{
+  color: #E0D8DA;
+}
+.gauche{
+  width: 33%;
+  border-right: 1px solid #E0D8DA;
+}
+.centre{
+  width: 33%;
+  border-right: 1px solid #E0D8DA;
+}
+.droite{
+  width: 34%;
+}
+
+.menu_responsive_hidden{
+  overflow: hidden;
+}
+/*resposnive header*/
+@media screen and (max-width: 1250px){
+
+.bouton{
+  visibility: hidden;
+}
+.numeros{
+  visibility: hidden;
+}
+.adresse{
+  visibility: hidden;
+}
+#localisation_logo{
+  visibility: visible;
+  margin-left: 120px;
+  padding-bottom: 100px;
+  position: relative;
+  bottom: 45px;
+}
+#tel_logo{
+  visibility: visible;
+  position: relative;
+  bottom: 45px;
+}
+.hamburger{
+  overflow: visible;
+}
+
+.menu_responsive_visible{
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  background-color: #38040E;
+  color: #E0D8DA;
+  justify-content: space-around;
+  font-size: 45px;
+  position: relative;
+  bottom: 142px;
+  padding-bottom: 500px;
+  padding-top: 100px;
+  border-top: 1px solid #E0D8DA;
+  border: solid 1px #E0D8DA;
+}
+.menu_responsive_visible > h3{
+  font-size: 45px;
+  color: #E0D8DA;
+}
+/*responsive body*/
+
+
+}
+@media screen and (max-width: 1250px){
+.description_menu{
+  width: 30%;
+  position: absolute;
+  left: 35%;
+  position: fixed;
+  color: black;
+  z-index: 1;
+}
+description_menu > h2{
+  color: black;
+}
+container_1{
+  z-index: 2;
+}
+.menu_responsive_visible{
+  z-index: 1;
+}
+}
+/*responsive footer*/
+
+@media screen and (max-width: 1250px){
+  footer{
+    width: 100%;
+    height: 800px;
+    color: #E0D8DA;
+    background-color: #38040E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+  }
+  .gauche{
+    width: 60%;
+    border-bottom: 1px solid #E0D8DA;
+    border-right: none;
+    padding-bottom: 20px;
+
+  }
+  .centre{
+    width: 60%;
+    border-bottom: 1px solid #E0D8DA;
+    border-right: none;
+  }
+  .droite{
+    width: 60%;
+    padding-bottom: 110px;
+  }
+}

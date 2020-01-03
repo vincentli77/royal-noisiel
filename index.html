@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+  <html lang="fr">
+  <head>
+      <meta charset="utf-8"/>
+      <title>Royal Noisiel</title>
+      <meta name="Royal noisiel" content="Royal noisiel Decouvrez nos plat  asiatique"/>
+      <meta name="google-site-verification" content="5NSWoGJs6wd6Ga1ZwMjjnVGlK2XFw133l4BTO7ka7SQ" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yatra+One&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles/index.css">
+      <link rel="icon" href="images/icone.ico" />
+      <script src ="scripts/index.js"></script>
+
+  </head>
+  <body>
+ <div class="container">
+
+   <div class="photo_description">
+        <div id="cf4a">
+         <img  src="images/resto_interieur2.jpg" />
+         <img  src="images/resto_interieur3.jpg" />
+         <img  src="images/resto_interieur.png" />
+         <img  src="images/resto_accueil.jpg" />
+
+       </div>
+ <div class="description">
+      <h2>
+       Decouvrez nos saveurs d'Asie
+       <br>Ouverts tous les jours sauf le <U><Font color="red">Mardi</Font></U></br>
+
+       </h2>
+  </div>
+ </div>
+ <div class="bol">
+  <h1>Royal Noisiel</h1>
+ <div class="image_bol">
+   <div class="specialite">
+   <a id="nos_menu"href ="menu.html">Nos Menus</a>
+ </div>
+ <div class="commander">
+ <a id="nos_plat"href ="plat.html">Nos Plats</a>
+</div>
+<div class="contact">
+<a id="nos_commande"href ="contact.html">Commander </a>
+</div>
+ </div>
+ </div>
+  </div>
+
+  <div class="slideshow">
+  	<ul>
+  		<li><img src="images/plat1.png" alt="plat1" width="350" height="200" /></li>
+  		<li><img src="images/plat2.png" alt="plat2" width="350" height="200" /></li>
+  		<li><img src="images/plat3.png" alt="plat3" width="350" height="200" /></li>
+  		<li><img src="images/plat4.png" alt="plat4" width="350" height="200" /></li>
+      <li><img src="images/plat5.png" alt="plat5" width="350" height="200" /></li>
+      <li><img src="images/plat6.png" alt="plat6" width="350" height="200" /></li>
+      <li><img src="images/plat7.png" alt="" width="350" height="200" /></li>
+  	</ul>
+  </div>
+
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"> </script>
+
+  <script type="text/javascript">
+  $(function(){
+     setInterval(function(){
+        $(".slideshow ul").animate({marginLeft:-350},800,function(){
+           $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
+        })
+     }, 3500);
+  });
+  </script>
+
+
+  <footer>
+    <div class="gauche">
+      <h3>Localisation</h3>
+      <p>Cours du Buisson,</p>
+      <p>77186 Noisiel</p>
+    </div>
+    <div class="centre">
+      <h3>Horaires</h3>
+      <p> 11H30 à 15H</p>
+      <p>18H30 à 23H</p>
+    </div>
+    <div class="droite">
+      <h3>Contact</h3>
+      <p>01 64 80 08 89</p>
+    </div>
+  </footer>
+  </body>
+    </html>
