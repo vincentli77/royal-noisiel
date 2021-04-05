@@ -4,7 +4,6 @@ padding:0;
 font-family: 'Yatra One', cursive;
 font-size:14px;
 background-color: #E0D8DA;
-color: #E0D8DA;
 text-decoration: none;
 }
 a{
@@ -20,6 +19,8 @@ header{
   flex-direction: column;
   color: #E0D8De;
   text-align: center;
+  padding-bottom: 1%;
+
 }
 .nav{
   display: flex;
@@ -49,11 +50,12 @@ header{
 	display: flex;
 	flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 #localisation_logo{
-	width: 40px;
-  height: 40px;
-  padding: left : 50px;
+	width: 20px;
+  height: 20px;
+  padding: left  50px;
 }
 .numeros{
   width: 33%;
@@ -94,10 +96,7 @@ footer{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  pading-top: 10px;
-  pading-bottom: 10px;
   text-align: center;
-  font-size: 20px;
 }
 .gauche{
   width: 33%;
@@ -110,6 +109,7 @@ footer{
 .droite{
   width: 34%;
 }
+
 h3{
   text-align: center;
 }
@@ -201,8 +201,8 @@ h3{
     background-color: #38040E;
     display: flex;
     flex-direction: column;
-    pading-top: 10px;
-    pading-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 25px;
   }
   .gauche{
@@ -217,4 +217,5 @@ h3{
     width: 100%;
   }
 
+}
 }

@@ -26,9 +26,6 @@ main{
   padding-bottom: 2%; 
   color: black;
 }
-.Container{
-  
-}
 h4{
   text-align: center;
 }
@@ -132,6 +129,9 @@ header{
   flex-direction: column;
   color: #E0D8DA;
   text-align: center;
+  padding-bottom: 1%;
+  
+
 }
 .nav{
   display: flex;
@@ -158,11 +158,12 @@ header{
 	display: flex;
 	flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 #localisation_logo{
-	width: 40px;
-  height: 40px;
-  padding: left : 50px;
+	width: 20px;
+  height: 20px;
+  padding: left  50px;
 }
 #rue{
   padding-top: 18px;
@@ -268,9 +269,6 @@ h3{
   position: relative;
   bottom: 45px;
 }
-.nombres_hidden{
-
-}
 
 /*responsive header*/
 
@@ -304,4 +302,5 @@ h3{
     width: 60%;
     padding-bottom: 110px;
   }
+}
 }
